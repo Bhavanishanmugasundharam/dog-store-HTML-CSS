@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicines - Dog Products and Medicines Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product, .medicine {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.product img, .medicine img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.product-details, .medicine-details {
+    flex: 1;
+}
+
+.product h3, .medicine h3 {
+    color: #333;
+}
+
+.product p, .medicine p {
+    color: #666;
+}
+
+.product span, .medicine span {
+    font-weight: bold;
+    color: #555;
+}
+
+.product button, .medicine button {
+    background-color: #4CAF50;
+    color: #fff;
+    border:2px solid black;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dog Products and Medicines Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="medicines.html">Medicines</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="medicines">
+        <div class="container">
+            <h2>Medicines for Dogs</h2>
+
+            <div class="medicine">
+                <img src="flea.jpeg" alt="" height="300px" width="300px">
+                <div class="medicine-details">
+                    
+                    <h3>Flea and Tick Treatment</h3>
+                    <p>Kills fleas and ticks effectively.</p>
+                    <span>$15</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="medicine">
+                <img src="hh.avif" alt="" height="300px" width="300px">
+                <div class="medicine-details">
+                    
+                    <h3>Heartworm Prevention</h3>
+                    <p>Protects against heartworm disease.</p>
+                    <span>$25</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Add more medicines here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dog Products and Medicines Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
